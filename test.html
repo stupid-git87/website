@@ -2,190 +2,341 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styletest.css">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
-    <script src="slideshadow.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EDMOND MASION</title>
+  <link rel="stylesheet" href="styletest.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
 
 <body>
-    <div class="container"></div>
-    <!-- Header Section -->
-    <div class="header">
-        <!-- Top Header Messages -->
-        <div class="top-header">
-            <div class="message-container">
-                <div class="message">Follow chúng tôi để nhận thêm ưu đãi!</div>
-                <div class="message">Voucher giảm giá 30% - Đừng bỏ lỡ!</div>
-                <div class="message">Giao hàng toàn quốc - Nhanh chóng & tiện lợi!</div>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">TRANG CHỦ</a></li>
-                    <li><a href="#">BALO EDMOND MASION<span class="new-label">NEW</span></a></li>
-                    <li><a href="#">TÚI EDMOND MASION</a></li>
-                    <li><a href="#">TIN TỨC</a></li>
-                    <li><a href="#">LOGIN</a></li>
-                </ul>
-                <div class="search-container">
-                    <input type="text" class="search-input" placeholder="Search...">
-                    <i class="fa fa-search search-icon"></i>
-                </div>
-                <!-- Font Awesome -->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
-            </div>
-        </div>
-        <!-- Logo Section -->
-        <div class="slide-container">
-            <div class="slide">
-              <img src="image/image_auto.png">
-            </div>
-            <div class="slide">
-              <img src="image/image_auto2.png">
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">⟨</a>
-            <a class="next" onclick="plusSlides(1)">⟩</a>
-          </div>
-          
-     </div>
-    <!-- Sidebar Navigation -->
-    <div class="sidebar" id="sidebar">
-        <button class="close-btn" onclick="closeMenu()">&times;</button>
-        <a href="#">Trang Chủ</a>
-        <a href="#">BALO EDMOND MASION <span class="new-label">NEW</span></a>
-        <a href="#">TÚI EDMOND MASION</a>
-        <a href="#">TIN TỨC</a>
-        <a href="#">LOGIN</a>
-    </div>
-    <!-- Menu Button -->
-    <button class="menu-btn" onclick="openMenu()">&#9776;</button>
-    <div class="product-category">
-        <div class="product">
-            <img src="image/backpack.jpg" alt="Backpack Edmond">
-            <h3>BACKPACK EDMOND</h3>
-            <a href="image-poduct_BackPack.html" class="product-btn">SHOP NOW</a>
-        </div>
-        <div class="product">
-            <img src="image/trunk.jpg" alt="Trunk Edmond">
-            <h3>TRUNK EDMOND</h3>
-            <a href="image-poduct_Trunk.html" class="product-btn">SHOP NOW</a>
-        </div>
-        <div class="product">
-            <img src="image/minbag.jpg" alt="Mini Bag Edmond">
-            <h3>MINI BAG EDMOND</h3>
-            <a href="image-poduct_MiniBag.html" class="product-btn">SHOP NOW</a>
-        </div>
-    </div>
-    <!-- Content  -->
-    <div class="content-container">
-        <div class="content-wrap">
-            <div class="content-product">
-                <div class="product-section">
-                    <div class="product-border">
-                        <div class="product-img-center">
-                            <aol href="#">
-                                <img class="product-img" src="image/product 1.webp">
-                            </aol>
-                        </div>
-                        <div>
-                            <p class="product-name">
-                                <a href="#">BALO EDMOND MASION</a>
-                            </p>
-                            <p class="product-price">
-                                <span class="product-discounted-price">50$</span>
-                                <span class="product-original-price">100$</span>
-                                <span class="product-discounted">50%OFF</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-section">
-                    <div class="product-border">
-                        <div class="product-img-center">
-                            <aol href="#">
-                                <img class="product-img" src="image/product 2.webp">
-                            </aol>
-                        </div>
-                        <div>
-                            <p class="product-name">
-                                <a href="#">BALO EDMOND MASION</a>
-                            </p>
-                            <p class="product-price">
-                                <span class="product-discounted-price">50$</span>
-                                <span class="product-original-price">100$</span>
-                                <span class="product-discounted">50%OFF</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-section">
-                    <div class="product-border">
-                        <div class="product-img-center">
-                            <aol href="#">
-                                <img class="product-img" src="image/product3.webp">
-                            </aol>
-                        </div>
-                        <div>
-                            <p class="product-name">
-                                <a href="#">BALO EDMOND MASION</a>
-                            </p>
-                            <p class="product-price">
-                                <span class="product-discounted-price">50$</span>
-                                <span class="product-original-price">100$</span>
-                                <span class="product-discounted">50%OFF</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-section">
-                    <div class="product-border">
-                        <div class="product-img-center">
-                            <aol href="#">
-                                <img class="product-img" src="image/product4.webp">
-                            </aol>
-                        </div>
-                        <div>
-                            <p class="product-name">
-                                <a href="#">BALO EDMOND MASION</a>
-                            </p>
-                            <p class="product-price">
-                                <span class="product-discounted-price">50$</span>
-                                <span class="product-original-price">100$</span>
-                                <span class="product-discounted">50%OFF</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-section">
-                    <div class="product-border">
-                        <div class="product-img-center">
-                            <aol href="#">
-                                <img class="product-img" src="image/product5.webp">
-                            </aol>
-                        </div>
-                        <div>
-                            <p class="product-name">
-                                <a href="#">BALO EDMOND MASION</a>
-                            </p>
-                            <p class="product-price">
-                                <span class="product-discounted-price">50$</span>
-                                <span class="product-original-price">100$</span>
-                                <span class="product-discounted">50%OFF</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <!-- Footer -->
-    <div class="footer"></div>
+  <div class="container"></div>
 
+  <!-- Header Section -->
+  <div class="header">
+    <!-- Top Header Messages -->
+    <div class="top-header">
+      <div class="message-container" id="messageContainer">
+        <div class="message">Follow chúng tôi để nhận thêm ưu đãi!</div>
+        <div class="message">Voucher giảm giá 30% - Đừng bỏ lỡ!</div>
+        <div class="message">
+          Giao hàng toàn quốc - Nhanh chóng & tiện lợi!
+        </div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">TRANG CHỦ</a></li>
+          <li>
+            <a href="#">BALO EDMOND MASION<span class="new-label">NEW</span></a>
+          </li>
+          <li><a href="#">TÚI EDMOND MASION</a></li>
+          <li><a href="#">TIN TỨC</a></li>
+          <li><a href="javascript:void(0)" id="openLoginBtn">LOGIN</a></li>
+        </ul>
+        <div class="search-container">
+          <input type="text" class="search-input" placeholder="Search..." />
+          <i class="fa fa-search search-icon"></i>
+        </div>
+      </div>
     </div>
+
+    <!-- Logo Section -->
+    <div class="slide-container">
+      <div class="slide">
+        <img src="image/image_auto.png" />
+      </div>
+      <div class="slide">
+        <img src="image/image_auto2.png" />
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">⟨</a>
+      <a class="next" onclick="plusSlides(1)">⟩</a>
+    </div>
+  </div>
+
+  <!-- Sidebar Navigation -->
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="closeMenu()">&times;</button>
+    <a href="#">Trang Chủ</a>
+    <a href="#">BALO EDMOND MASION <span class="new-label">NEW</span></a>
+    <a href="#">TÚI EDMOND MASION</a>
+    <a href="#">TIN TỨC</a>
+    <a href="#">LOGIN</a>
+  </div>
+
+  <!-- Menu Button -->
+  <button class="menu-btn" onclick="openMenu()">&#9776;</button>
+  <br /><br /><br />
+
+  <div class="product-category">
+    <div class="product">
+      <a href="image-poduct_BackPack.html">
+        <img src="image/backpack.jpg" alt="Backpack Edmond" />
+        <div class="product-info">
+          <h3><strong>BACKPACK EDMOND</strong></h3>
+          <button class="product-btn">SHOP NOW</button>
+        </div>
+      </a>
+    </div>
+    <div class="product">
+      <a href="image-poduct_Trunk.html">
+        <img src="image/trunk.jpg" alt="Trunk Edmond" />
+        <div class="product-info">
+          <h3><strong>TRUNK</strong></h3>
+          <button class="product-btn">SHOP NOW</button>
+        </div>
+      </a>
+    </div>
+    <div class="product">
+      <a href="image-poduct_MiniBag.html">
+        <img src="image/minbag.jpg" alt="Mini Bag Edmond" />
+        <div class="product-info">
+          <h3><strong>MINI BAG</strong></h3>
+          <button class="product-btn">SHOP NOW</button>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="content-container">
+    <div class="content-wrap">
+      <div class="content-product">
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="image/product 1.webp" />
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">BALO EDMOND MASION</a>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">50$</span>
+                <span class="product-original-price">100$</span>
+                <span class="product-discounted">50%OFF</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="image/product 2.webp" />
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">BALO EDMOND MASION</a>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">50$</span>
+                <span class="product-original-price">100$</span>
+                <span class="product-discounted">50%OFF</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="image/product3.webp" />
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">BALO EDMOND MASION</a>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">50$</span>
+                <span class="product-original-price">100$</span>
+                <span class="product-discounted">50%OFF</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="image/product4.webp" />
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">BALO EDMOND MASION</a>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">50$</span>
+                <span class="product-original-price">100$</span>
+                <span class="product-discounted">50%OFF</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="product-section">
+          <div class="product-border">
+            <div class="product-img-center">
+              <a href="#">
+                <img class="product-img" src="image/product5.webp" />
+              </a>
+            </div>
+            <div>
+              <p class="product-name">
+                <a href="#">BALO EDMOND MASION</a>
+              </p>
+              <p class="product-price">
+                <span class="product-discounted-price">50$</span>
+                <span class="product-original-price">100$</span>
+                <span class="product-discounted">50%OFF</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-us">
+    <div class="about-us-left">
+      <img src="image/image_auto2.png">
+    </div>
+    <div class="about-us-right">
+      <h5>VỀ CHÚNG TÔI</h5>
+      <h2>EDMOND MASION</h2>
+      <div id="content-us">
+        <p><span id="bold-letter">Edmond Masion</span> chúng tôi chuyên phân phối <span id="bold-letter">chính
+            hãng</span> với những sẩn phẩm như :
+          Emond Masion Backpack, Handle Bag,<span id="bold-letter">Trunk Edmond Masion</span>... Chúng tôi luôn cam kết
+          những sản phẩm mua tại cửa hàng đề là sản phẩm
+          chính hãng và được bảo hành trong vòng 30 ngày. <span id="bold-letter">Edmond Masion</span> với mong muốn phát
+          triển thành cửa hàng thành một trong những cửa hàng
+          uy tín và chất lượng nhất tới tay khách hàng. Bạn hãy tham khảo các sản phẩm trên cửa hàng Edmond Masion để
+          lựa chọn được những sản phẩm như : <span id="bold-letter">Edmond Masion, Túi hợp Trunk,
+            Edmond Masion...chính hãng </span> và những ưu đãi lớn nhất từ Edmond Masion.
+        </p>
+      </div>
+      <a class="shop-button" href="image-poduct_BackPack.html"> Shop Now</a>
+    </div>
+  </div>
+  <!-- Footer -->
+   <footer>
+  <div class="footer_info">
+    <div class="footer_width about">
+      <h2>About</h2>
+      <p>Edmon Masion với mong muốn phát triển cửa hàng thành một trong những cửa hàng uy tín nhất và chất lượng nhất.
+        Sứ mệnh của Edmon Masion VN là đem đến cho khách hàng những mẫu thời trang đẹp chất lượng sang trọng nhất cho
+        giới trẻ hiện nai...
+      </p>
+      <div class="social-media">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-amazon"></i></a></li>
+            </ul>
+      </div>
+    </div>
+    <div class="footer_width link">
+      <h2>Quick Link</h2>
+      <ul>
+        <li><a href="">Trang Chủ</a></li>
+        <li><a href="">BALO EDMOND MASION</a></li>
+        <li><a href="">TÚI EDMOND MASION</a></li>
+        <li><a href="">TIN TỨC</a></li>
+        <li><a href="">LOGIN</a></li>
+      </ul>
+    </div>
+    <div class="footer_width contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          <span><i class="fas fa-map-marked-alt"></i></span>
+          <p> 140 Lê Trọng Tấn Quận.Tân Phú TP.HCM</p>
+        </li>
+        <li>
+          <span><i class="fas fa-envelope"></i></span>
+          <a href=""> edmondmasion@gmail.com</a>
+        </li>
+        </li>
+          <span><i class="fas fa-phone-volume"></i></span>
+          <a href=""> 0344855913</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy-rigth">
+   <p>COPYRIGHT 2020 EDMOND MASION ALL RIGHTS RESERVED</p>
+  </div>
+</footer>
+  <!-- Login/Register Modal -->
+  <div id="loginModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="loginTitle" aria-modal="true">
+    <div class="modal-content modern-login" tabindex="-1">
+      <button class="close" id="closeLogin" aria-label="Đóng cửa sổ đăng nhập">
+        &times;
+      </button>
+
+      <div class="tab-container" role="tablist" aria-label="Chuyển đổi đăng nhập và đăng ký">
+        <button class="tab active" id="loginTab" role="tab" aria-selected="true" aria-controls="loginFormContainer"
+          tabindex="0">
+          Đăng nhập
+        </button>
+        <button class="tab" id="registerTab" role="tab" aria-selected="false" aria-controls="registerFormContainer"
+          tabindex="-1">
+          Đăng ký
+        </button>
+      </div>
+
+      <!-- Form Đăng Nhập -->
+      <div id="loginFormContainer" role="tabpanel" aria-labelledby="loginTab">
+        <form id="loginForm" novalidate>
+          <label for="username">Tên đăng nhập</label>
+          <input type="text" id="username" name="username" placeholder="Nhập tên đăng nhập" required />
+
+          <label for="password">Mật khẩu</label>
+          <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" required />
+
+          <button type="submit" class="btn-primary">Đăng nhập</button>
+          <button type="button" id="cancelLogin" class="btn-cancel">
+            Hủy
+          </button>
+
+          <div id="loginMessage" class="message-error" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <!-- Form Đăng Ký -->
+      <div id="registerFormContainer" role="tabpanel" aria-labelledby="registerTab" hidden>
+        <form id="registerForm" novalidate>
+          <label for="regFullName">Họ và tên</label>
+          <input type="text" id="regFullName" name="regFullName" placeholder="Nhập họ và tên" required />
+
+          <label for="regEmail">Email</label>
+          <input type="email" id="regEmail" name="regEmail" placeholder="Nhập email" required />
+
+          <label for="regPassword">Mật khẩu</label>
+          <input type="password" id="regPassword" name="regPassword" placeholder="Nhập mật khẩu" required
+            minlength="6" />
+
+          <label for="regConfirmPassword">Xác nhận mật khẩu</label>
+          <input type="password" id="regConfirmPassword" name="regConfirmPassword" placeholder="Xác nhận mật khẩu"
+            required minlength="6" />
+
+          <button type="submit" class="btn-primary">Đăng ký</button>
+          <button type="button" id="cancelRegister" class="btn-cancel">
+            Hủy
+          </button>
+
+          <div id="registerMessage" class="message-error" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="slideshadow.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
